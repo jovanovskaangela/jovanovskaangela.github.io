@@ -1,0 +1,71 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body{
+    animation: fade-in 2s ease;
+}
+div.first{
+    background: #8E7161;
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    position: static;
+    animation: fade-in 2s ease;
+}
+div.first ul{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Monopoly', cursive;
+    font-weight: bold;
+    margin-top:5px;
+    padding-left: 900px;
+    margin-left:380px;
+}
+div.first ul li {
+    padding-left: 55px;
+    list-style-type: none;
+}
+div.first ul li a{
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+}
+div.first ul li a:hover{
+    color: #7B583D;
+}
+body{
+    margin: 0;
+    background-image: url("img/butterfly.jpg");
+}
+@font-face {
+    font-family: 'Monopoly';
+    src: url('fonts/Monopoly/Monopoly Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia/Sofia-Regular.ttf') format('truetype');
+}
+div.advice{
+    margin-left: 200px;
+}
+div.advice p{
+    font-size: 25px;
+    font-family: "Yu Gothic", cursive;
+    text-align: justify;
+    width: 550px;
+    margin-top: -770px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+img.hands{
+    transition: transform 0.3s ease;
+}
+img.hands:hover{
+    transform: scale(1.2);
+}

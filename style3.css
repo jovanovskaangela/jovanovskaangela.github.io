@@ -1,0 +1,112 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div.first{
+    background: #8E7161;
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    position: static;
+}
+div.first ul{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Monopoly', cursive;
+    font-weight: bold;
+    margin-top:5px;
+    padding-left: 900px;
+    margin-left:380px;
+}
+div.first ul li {
+    padding-left: 55px;
+    list-style-type: none;
+}
+div.first ul li a{
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+}
+div.first ul li a:hover{
+    color: #7B583D;
+}
+body{
+    margin: 0;
+    background-image: url("img/butterfly.jpg");
+}
+@font-face {
+    font-family: 'Monopoly';
+    src: url('fonts/Monopoly/Monopoly Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia/Sofia-Regular.ttf') format('truetype');
+}
+div.title{
+    font-family: Sofia,cursive;
+    font-size: 100px;
+    padding-left: 850px;
+    margin-top: 30px;
+}
+div.ben{
+    background: url("img/benn.png");
+    background-size: cover;
+    border: double black 5px;
+    width: 800px;
+    height: 640px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+div.text p{
+    opacity: 1;
+}
+div.text{
+    width: 800px;
+    height: 640px;
+    background-color: rgba(61, 46, 43, 0.8);
+    float: right;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+div.container{
+    display: flex;
+    font-family: "Yu Gothic", cursive;
+    animation: fade-in 2s ease;
+}
+div.text{
+    font-size: 25px;
+    text-align: justify;
+    border: double black 15px;
+
+}
+div.text h1{
+    padding-left: 215px;
+    font-family: Sofia;
+    font-weight: normal;
+    padding-top: 10px;
+}
+div.text p{
+    width: 700px;
+    padding-left: 50px;
+}
+img.butterfly{
+    margin-top: -100px;
+    margin-left: -90px;
+}
+img.butterfly:hover{
+    transform: scale(1.2);
+}
+img.bear{
+    margin-top: -150px;
+    margin-left: 550px;
+}
+img.bear:hover{
+    transform: scale(1.2);
+}

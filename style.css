@@ -1,0 +1,121 @@
+div.first{
+    background: #8E7161;
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    position: static;
+}
+div.first ul{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Monopoly', cursive;
+    font-weight: bold;
+    margin-top:5px;
+    padding-left: 900px;
+    margin-left:380px;
+}
+div.first ul li {
+    padding-left: 55px;
+    list-style-type: none;
+}
+div.first ul li a{
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+}
+div.first ul li a:hover{
+    color: #7B583D;
+}
+body{
+    margin: 0;
+    background-image: url("img/butterfly.jpg");
+}
+@font-face {
+    font-family: 'Monopoly';
+    src: url('fonts/Monopoly/Monopoly Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia/Sofia-Regular.ttf') format('truetype');
+}
+span.story{
+    font-size: 40px;
+    margin-left: 1000px;
+    height:50px;
+    font-family: 'Monopoly', cursive;
+}
+div.container{
+    height: 800px;
+    width: auto;
+    display: flex;
+    margin-top: 90px;
+    animation: fade-in 1s ease;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div.img{
+    background-image: url("img/me2.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 600px;
+    margin-left: 350px;
+    background-repeat: no-repeat;
+    border: solid black 5px;
+    border-radius: 8px;
+}
+div.bio{
+    background-color:#3D2E2B;
+    height: 800px;
+    width: 900px;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top:solid black 5px;
+    border-radius: 8px;
+}
+div.bio h1, div.bio h2{
+    margin: 0;
+}
+img.png{
+    height: 100px;
+    width: 150px;
+    rotate: 45deg;
+    transition: transform 0.3s ease;
+}
+img.png:hover{
+    transform: scale(1.2);
+}
+span.img{
+    padding-left:800px;
+    rotate: 45deg;
+    margin: 0;
+}
+div.bio h2{
+    font-size: 35px;
+    padding-left: 360px;
+    font-family: 'Monopoly', cursive;
+}
+div.bio h1{
+    font-size: 40px;
+    padding-left: 270px;
+    font-family: 'Sofia', cursive;
+    font-weight: normal;
+}
+p.about{
+    font-size: 25px;
+    margin: 10px;
+    font-family: sans-serif, cursive;
+    font-weight: normal;
+    position: relative;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

@@ -1,0 +1,75 @@
+div.first{
+    background: #8E7161;
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    position: static;
+}
+div.first ul{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Monopoly', cursive;
+    font-weight: bold;
+    margin-top:5px;
+    padding-left: 900px;
+    margin-left:380px;
+}
+div.first ul li {
+    padding-left: 55px;
+    list-style-type: none;
+}
+div.first ul li a{
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+}
+div.first ul li a:hover{
+    color: #7B583D;
+}
+body{
+    margin: 0;
+    background-image: url("img/basic.jpg");
+}
+@font-face {
+    font-family: 'Monopoly';
+    src: url('fonts/Monopoly/Monopoly Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia/Sofia-Regular.ttf') format('truetype');
+}
+div.container{
+    display: flex;
+    animation: fade-in 2s ease;
+}
+div.pics{
+    width: 1100px;
+    height: 800px;
+}
+div.postcard{
+    background-image: url("img/paper-fotor-bg-remover-20230703211938.png");
+    width: 840px;
+    height: 650px;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+div.pics{
+    margin-left: 150px;
+}
+div.pics img{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+p.paragraph{
+    font-family: "Yu Gothic", cursive;
+    font-weight: bold;
+}

@@ -1,0 +1,171 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div.first{
+    background: #8E7161;
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: solid black 3px;
+    position: static;
+    animation: fade-in 2s ease;
+}
+div.first ul{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Monopoly', cursive;
+    font-weight: bold;
+    margin-top:5px;
+    padding-left: 900px;
+    margin-left:380px;
+}
+div.first ul li {
+    padding-left: 55px;
+    list-style-type: none;
+}
+div.first ul li a{
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+}
+div.first ul li a:hover{
+    color: #7B583D;
+}
+body{
+    margin: 0;
+    background-image: url("img/basic.jpg");
+}
+@font-face {
+    font-family: 'Monopoly';
+    src: url('fonts/Monopoly/Monopoly Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sofia';
+    src: url('fonts/Sofia/Sofia-Regular.ttf') format('truetype');
+}
+div.hobbies{
+    margin-top: 0;
+    height: 50px;
+    padding-top: 15px;
+    position: static;
+    animation: fade-in 2s ease;
+}
+div.hobbies ul{
+    display: flex;
+    font-size: 50px;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
+    margin-top:130px;
+    margin-left:120px;
+}
+div.hobbies ul li{
+    padding-left: 150px;
+    list-style-type: none;
+}
+div.hobbies ul li a {
+    text-decoration: none;
+    color: #3D2E2B;
+    transition: color 0.3s ease;
+    background-color: rgba(142, 113, 97, 0.8);
+    border: double black 6px;
+    border-radius: 15px;
+}
+h1.photo{
+    padding-top: 400px;
+    padding-left: 155px;
+    font-family: 'Monopoly', cursive;
+    font-size: 50px;
+    margin: 0;
+    animation: fade-in 2s ease;
+}
+p.phototext{
+    font-family: "Yu Gothic", cursive;
+    width: 700px;
+    margin-left: 150px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgba(196, 172, 149,0.8);
+    border: solid #3D2E2B 4px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
+img.myphotos{
+    margin-top: -550px;
+    margin-right: 370px;
+    animation: fade-in 2s ease;
+}h1.photoS{
+     padding-top: 200px;
+     padding-left: 155px;
+     font-family: 'Monopoly', cursive;
+     font-size: 50px;
+     margin: 0;
+ }
+p.fashion{
+    font-family: "Yu Gothic", cursive;
+    width: 700px;
+    margin-left: 150px;
+    margin-right: 0;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgba(61, 46, 43, 0.8);
+    border: solid #3D2E2B 4px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
+img.clothes{
+    margin-top: -500px;
+    padding-left: -100px;
+    animation: fade-in 2s ease;
+}
+div.clothes{
+    background-image: url("img/Blank 2 Panel Portraits Comic Strip.png");
+    width: 400px;
+    height: 534px;
+    margin-top: 200px;
+    margin-left: 400px;
+    animation: fade-in 2s ease;
+}
+img.myphoto{
+    margin-top: -500px;
+    margin-right: 400px;
+    border: double black 8px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
+p.fashionn{
+    font-family: "Yu Gothic", cursive;
+    width: 700px;
+    margin-left: 150px;
+    margin-right: 0;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgba(196, 172, 149,0.8);
+    border: solid #3D2E2B 4px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
+img.cook{
+    margin-top: -500px;
+    margin-right: 650px;
+    border: double black 8px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
+img.dessert{
+    margin-top: -500px;
+    margin-right: 250px;
+    border: double black 8px;
+    border-radius: 15px;
+    animation: fade-in 2s ease;
+}
